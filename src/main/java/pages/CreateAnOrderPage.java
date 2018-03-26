@@ -38,9 +38,9 @@ public class CreateAnOrderPage extends BasePage {
     }
 
     public void selectMedicalSuppliesAndSelectFirstResult() {
-        sleepInSeconds(1);
+        sleepInSeconds(5);
         itemTypes.get(2).click();
-        sleepInSeconds(1);
+        sleepInSeconds(2);
         storeNames.get(0).click();
     }
 
@@ -53,9 +53,9 @@ public class CreateAnOrderPage extends BasePage {
     }
 
     public void selectSavedAddressAndOrderNow() {
-        sleepInSeconds(3);
+        sleepInSeconds(5);
         savedAddressBlock.click();
-        sleepInSeconds(2);
+        sleepInSeconds(3);
         continueButton.click();
     }
 }
