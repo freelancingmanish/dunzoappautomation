@@ -49,6 +49,7 @@ public class CreateAnOrderPage extends BasePage {
         for (int i = 0; i < quantity; i++) {
             addQuantityButton.click();
         }
+        continueButton.click();
     }
 
     public void selectSavedAddress() {
