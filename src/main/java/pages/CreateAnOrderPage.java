@@ -52,8 +52,10 @@ public class CreateAnOrderPage extends BasePage {
         continueButton.click();
     }
 
-    public void selectSavedAddress() {
+    public void selectSavedAddressAndOrderNow() {
         sleepInSeconds(3);
         savedAddressBlock.click();
+        sleepInSeconds(2);
+        continueButton.click();
     }
 }
