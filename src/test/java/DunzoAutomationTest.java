@@ -19,6 +19,6 @@ public class DunzoAutomationTest extends TestManager {
         new CreateAnOrderPage().selectBuyOption();
         new CreateAnOrderPage().selectMedicalSuppliesAndSelectFirstResult();
         new CreateAnOrderPage().enterMedicineNameAndQuantityAndContinue("PARACETAMOL", 6);
-        new CreateAnOrderPage().selectSavedAddress();
+        new CreateAnOrderPage().selectSavedAddressAndOrderNow();
     }
 }
